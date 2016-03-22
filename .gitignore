@@ -1,7 +1,15 @@
-*.class
-*.log
+## Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, etc
+*.iml
+.scala_dependencies
+.worksheet
+## Directory-based project format:
+.idea/
 
-# sbt specific
+## Build directory
+target/
+out/
+
+## sbt specific
 .cache
 .history
 .lib/
@@ -12,6 +20,6 @@ src_managed/
 project/boot/
 project/plugins/project/
 
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
+
+## Log files
+*.log
